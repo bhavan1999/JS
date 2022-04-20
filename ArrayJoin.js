@@ -23,3 +23,7 @@ console.log(v7);
 const v8 = ["Bhavan ","Ashok"];
 v8.push('Katre');
 console.log(v8);
+
+// Map Method
+
+var v9 = [10,20,30,40];
