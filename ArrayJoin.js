@@ -17,3 +17,9 @@ console.log(...v4,...v5,...v6);
 let v7 = ["sun","mon","tue","wed",];
 v7.splice(4,0,'thurs');
 console.log(v7);
+
+// Push Method
+
+const v8 = ["Bhavan ","Ashok"];
+v8.push('Katre');
+console.log(v8);
