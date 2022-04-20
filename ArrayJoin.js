@@ -10,6 +10,10 @@ console.log(v1.concat(v2,v3));
 const v4 = ["Bhavan","Katre"];
 const v5 = ["Hello","World"];
 const v6 = ["Good","Bye"];
-console.log(...v1,...v2,...v3);
+console.log(...v4,...v5,...v6);
 
-// 
+// 3. Splice Method
+
+let v7 = ["sun","mon","tue","wed",];
+v7.splice(4,0,'thurs');
+console.log(v7);
