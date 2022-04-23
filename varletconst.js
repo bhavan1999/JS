@@ -1,1 +1,2 @@
-// let , const are function scoped.
+// Let , Const are function scoped.
+// Var is Global Scoped
