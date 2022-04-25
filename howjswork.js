@@ -58,3 +58,11 @@ function get1 () {
 //      }                                                O/P :- Uncaught Reference Error
 
 //  Hoisting is the phenomenon in which variable can be used before it has been declared.
+
+function example(){
+    console.log(x);
+}
+console.log(example);
+
+
+// [4.] How Function Work in JS
