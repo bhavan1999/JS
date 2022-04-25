@@ -34,3 +34,19 @@ console.log(sq4);
 //                                                       num : undefined                                  num : 2
 //                                                       ans : undefined                                  ans : 4
 //  Call Stack :- The call stack is used by JavaScript to keep track of multiple function calls
+
+// [3.] Hoisting in JS
+
+var b = 9;
+function get () {
+    console.log("BHAVAN");
+}
+get();
+console.log(b);
+
+get1();
+console.log(x);
+var x = 9;
+function get1 () {
+    console.log("BHAVAN KATRE");
+}
