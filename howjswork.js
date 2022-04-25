@@ -57,3 +57,4 @@ function get1 () {
 //      console.log("BHAVAN KATRE -2");
 //      }                                                O/P :- Uncaught Reference Error
 
+//  Hoisting is the phenomenon in which variable can be used before it has been declared.
