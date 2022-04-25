@@ -39,14 +39,21 @@ console.log(sq4);
 
 var b = 9;
 function get () {
-    console.log("BHAVAN");
+    console.log("BHAVAN");            
 }
-get();
-console.log(b);
+get();                                             // O/P:- BHAVAN
+console.log(b);                                    //       9
 
 get1();
-console.log(x);
+console.log(x);                                     
 var x = 9;
 function get1 () {
-    console.log("BHAVAN KATRE");
-}
+    console.log("BHAVAN KATRE");                    // O/P:- BHAVAN KATRE
+}                                                   //       undefined
+
+//  get3();
+//  console.log(y);
+// function get3 () {
+//      console.log("BHAVAN KATRE -2");
+//      }                                                O/P :- Uncaught Reference Error
+
